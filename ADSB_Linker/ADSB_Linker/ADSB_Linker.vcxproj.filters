@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UserInterface">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INI">
+      <UniqueIdentifier>{1dd38788-c00c-49a6-9d67-7c4a65fb2929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asterix.Cat.021">
+      <UniqueIdentifier>{b151bfa0-8665-4dfc-b461-f9df66c5b5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business">
+      <UniqueIdentifier>{fe481aed-4c59-4e38-a7b5-bf80c0d8b6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON.PingStation">
+      <UniqueIdentifier>{7f38b97a-7087-46b0-9375-81dcdb69fa3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADSB_Linker.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ADSB_LinkerDlg.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\asterix\AsterixBuffer.h">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\asterix\AsterixDecode.h">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\asterix\AsterixDecode021.h">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\asterix\AsterixLogManager.h">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\asterix\AsterixUtility.h">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\asterix\CommonDefine.h">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ReadWriteINI.h">
+      <Filter>INI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\network\EndianControl.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\network\UDPSocket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ListnerAstrerix.h">
+      <Filter>Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\network\TCPSocket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="BusinessManager.h">
+      <Filter>Business</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoderADSB.h">
+      <Filter>Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PingStationJSON\JSONParserPingStation.h">
+      <Filter>JSON.PingStation</Filter>
+    </ClInclude>
+    <ClInclude Include="ListnerJSONPingStation.h">
+      <Filter>Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ADSBProtocol.h">
+      <Filter>Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\network\CRC16.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADSB_Linker.cpp">
+      <Filter>UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ADSB_LinkerDlg.cpp">
+      <Filter>UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\asterix\AsterixBuffer.cpp">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\asterix\AsterixDecode.cpp">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\asterix\AsterixDecode021.cpp">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\asterix\AsterixLogManager.cpp">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\asterix\AsterixUtility.cpp">
+      <Filter>Asterix.Cat.021</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ReadWriteINI.cpp">
+      <Filter>INI</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\network\EndianControl.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\network\UDPSocket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ListnerAstrerix.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\network\TCPSocket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="BusinessManager.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoderADSB.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\PingStationJSON\JSONParserPingStation.cpp">
+      <Filter>JSON.PingStation</Filter>
+    </ClCompile>
+    <ClCompile Include="ListnerJSONPingStation.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\network\CRC16.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ADSBLinker.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ADSBLinker.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ADSB_Linker.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
